@@ -1,1 +1,71 @@
-style. sheet
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Part 4: CSS Selectors */
+
+/* Element Selector: Styling the main header */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #007bff;
+}
+
+/* ID Selector: Header title */
+#main-header h1 {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+/* Class Selector: Card container for sections */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ID Selector: Add Expense section background */
+#add-expense-section {
+    border-left: 5px solid #28a745;
+}
+
+/* Class Selector: Input field grouping */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ID Selector: Your Expenses section background */
+#your-expenses-section {
+    border-left: 5px solid #dc3545;
+}
+
+/* Class Selector: Placeholder text */
+.placeholder-text {
+    color: #777;
+    font-style: italic;
+}
